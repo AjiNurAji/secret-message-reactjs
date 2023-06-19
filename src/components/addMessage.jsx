@@ -17,7 +17,7 @@ const AddMessage = () => {
     } else {
       setLoading(true)
       try {
-        await axios.post("http://127.0.0.1:8000/api/message", {
+        await axios.post("https://secrett-message.000webhostapp.com/api/message", {
           from: name,
           message,
         }).then((res) => {
