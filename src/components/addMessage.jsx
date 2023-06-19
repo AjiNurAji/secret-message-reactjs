@@ -17,9 +17,17 @@ const AddMessage = () => {
     } else {
       setLoading(true)
       try {
-        await axios.post("https://secrett-message.000webhostapp.com/api/message", {
-          from: name,
-          message,
+        // await axios.post("https://secrett-message.000webhostapp.com/api/message", {
+        //   from: name,
+        //   message,
+        // }
+        await axios({
+          method: 'post',
+          url: "https://secrett-message.000webhostapp.com/api/message",
+          data: {
+            from: name,
+            message: message,
+          }
         }).then((res) => {
           setLoading(false)
           toast.success("Berhasil dikirim, Terimakasih!!");
