@@ -1,6 +1,5 @@
 # SecretMessage 📑
 SecretMessgae ini berfungsi untuk mengirimkan pesan untuk seseorang tanpa memberitahu siapa pengirimnya. <br>
-[![Netlify Status](https://api.netlify.com/api/v1/badges/8aa70514-3814-4cb4-b2f4-6279ba23642e/deploy-status)](https://app.netlify.com/sites/secrett-messages/deploys)
 
 ## Comming Soon
 Rencana saya web SecretMessage ini akan dikembangkan menjadi seperti secreto atau NGL.
